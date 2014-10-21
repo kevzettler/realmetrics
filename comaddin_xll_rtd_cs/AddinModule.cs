@@ -17,8 +17,6 @@ namespace comaddin_xll_rtd_cs
             InitializeComponent();
             // Please add any initialization code to the AddinInitialize event handler
         }
-
-        private AddinExpress.MSO.ADXExcelAppEvents adxExcelEvents;
  
         #region Component Designer generated code
         /// <summary>
@@ -32,12 +30,6 @@ namespace comaddin_xll_rtd_cs
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.adxExcelEvents = new AddinExpress.MSO.ADXExcelAppEvents(this.components);
-            // 
-            // adxExcelEvents
-            // 
-            this.adxExcelEvents.WorkbookOpen += new AddinExpress.MSO.ADXHostActiveObject_EventHandler(this.adxExcelEvents_WorkbookOpen);
             // 
             // AddinModule
             // 
@@ -110,11 +102,6 @@ namespace comaddin_xll_rtd_cs
         public bool IsInitialized
         {
             get { return isInitialized; }
-        }
-
-        private void adxExcelEvents_WorkbookOpen(object sender, object hostObj)
-        {
-            MessageBox.Show("Derpy derp");
         }
 
     }

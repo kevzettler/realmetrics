@@ -82,6 +82,11 @@ namespace comaddin_xll_rtd_cs
                         CurrentInstance as comaddin_xll_rtd_cs.XLLModule1;
                 }
             }
+
+            public static string Bind(object arg)
+            {
+                return "666";
+            }
  
             #region Sample function
  
