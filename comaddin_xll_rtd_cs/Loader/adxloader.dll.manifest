@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <assemblyIdentity name="comaddin_xll_rtd_cs, PublicKeyToken=632cd1c9f3a7966f" xllClass="comaddin_xll_rtd_cs.XLLModule1" />
+  <loaderSettings generateLogFile="true" shadowCopyEnabled="true" privileges="user" configFileName="app.config" />
+</configuration>
